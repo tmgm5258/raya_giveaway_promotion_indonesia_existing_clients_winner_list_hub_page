@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TMGM 2026 Raya Giveaway Promotion — Indonesia Existing Clients — Campaign Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --dark-blue: #000B50; --mid-blue: #2C5FAD; --light-blue: #00B3EB; --bright-blue: #22FFFF;
+  --red: #DF1737; --green: #00D930; --gold: #D4A017; --gold-light: #FFF8E7;
+  --bg: #FAFBFC; --card: #FFFFFF; --border: #E2E8F0; --text: #0F172A; --text-secondary: #64748B; --text-muted: #94A3B8;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Plus Jakarta Sans',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+.container { max-width:1100px; margin:0 auto; padding:0 20px; }
+.header { background:var(--dark-blue); padding:28px 0; text-align:center; }
+.header img { height:50px; margin-bottom:12px; }
+.header h1 { color:#fff; font-size:24px; font-weight:800; letter-spacing:-0.5px; }
+.header h2 { color:var(--bright-blue); font-size:13px; font-weight:500; letter-spacing:2px; text-transform:uppercase; margin-top:4px; }
+.nav { background:#fff; border-bottom:1px solid var(--border); padding:12px 0; position:sticky; top:0; z-index:100; }
+.nav-inner { display:grid; grid-template-columns:repeat(8, 1fr); gap:6px; padding:0 20px; max-width:1100px; margin:0 auto; }
+.nav a { text-decoration:none; color:var(--text-secondary); font-size:12px; font-weight:600; padding:6px 14px; border-radius:6px; white-space:nowrap; transition:all 0.2s; text-align:center; }
+.nav a:hover { background:var(--dark-blue); color:#fff; }
+.section { margin:44px 0; padding-bottom:10px; }
+.section-title { font-size:18px; font-weight:800; color:var(--dark-blue); margin-bottom:4px; display:flex; align-items:center; gap:10px; }
+.section-title .num { background:#cc1042; color:#fff; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:13px; flex-shrink:0; }
+.section-sub { font-size:13px; color:var(--text-secondary); margin-bottom:16px; margin-left:38px; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:16px; }
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:12px; margin-bottom:16px; }
+.stat-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; position:relative; cursor:default; }
+.stat-card .val { font-size:28px; font-weight:800; color:var(--dark-blue); }
+.stat-card .label { font-size:11px; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.5px; margin-top:2px; }
+.stat-card.gold { border-color:var(--gold); background:var(--gold-light); }
+.stat-card.gold .val { color:var(--gold); }
+.stat-card .tooltip { visibility:hidden; opacity:0; position:absolute; bottom:calc(100% + 8px); left:50%; transform:translateX(-50%); background:var(--dark-blue); color:#fff; padding:10px 14px; border-radius:8px; font-size:11px; font-weight:400; line-height:1.5; width:260px; text-align:left; z-index:10; transition:all 0.2s; pointer-events:none; box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+.stat-card .tooltip::after { content:''; position:absolute; top:100%; left:50%; transform:translateX(-50%); border:6px solid transparent; border-top-color:var(--dark-blue); }
+.stat-card:hover .tooltip { visibility:visible; opacity:1; }
+.links-row { display:grid; grid-template-columns:repeat(4, 1fr); gap:10px; margin-top:12px; }
+.links-row a { display:flex; align-items:center; justify-content:center; gap:6px; padding:10px 16px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none; border:1px solid var(--border); color:var(--mid-blue); transition:all 0.2s; text-align:center; }
+.links-row a:hover { background:var(--dark-blue); color:#fff; border-color:var(--dark-blue); }
+table { width:100%; border-collapse:collapse; font-size:12px; min-width:900px; }
+th { background:var(--dark-blue); color:#fff; padding:10px 12px; text-align:left; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:0.5px; white-space:nowrap; }
+td { padding:8px 12px; border-bottom:1px solid var(--border); white-space:nowrap; }
+tr:hover { background:#F8FAFC; }
+tr.eligible { background:#F0FFF4; }
+tr.eligible:hover { background:#E6FFED; }
+tr.ineligible { color:var(--text-muted); }
+.table-wrap { overflow-x:auto; border-radius:10px; border:1px solid var(--border); }
+.video-wrap { background:#F8FAFC; border:1px solid var(--border); border-radius:12px; padding:12px; }
+video { width:100%; min-height:600px; border-radius:8px; display:block; background:#000; object-fit:contain; }
+.video-actions { display:flex; justify-content:flex-end; margin-top:10px; }
+.video-actions a { display:inline-flex; align-items:center; gap:6px; padding:8px 18px; border-radius:8px; font-size:12px; font-weight:600; text-decoration:none; background:var(--dark-blue); color:#fff; transition:all 0.2s; }
+.video-actions a:hover { background:var(--mid-blue); }
+.winner-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px,1fr)); gap:12px; }
+.winner-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; display:flex; align-items:center; gap:14px; }
+.winner-card .bars { font-size:24px; font-weight:800; color:var(--gold); min-width:40px; text-align:center; }
+.winner-card .bars small { display:block; font-size:9px; color:var(--text-muted); font-weight:500; }
+.winner-card .info { flex:1; }
+.winner-card .info .name { font-weight:700; font-size:14px; }
+.winner-card .info .detail { font-size:11px; color:var(--text-secondary); margin-top:2px; }
+.winner-card .status { padding:4px 10px; border-radius:20px; font-size:10px; font-weight:700; background:#FEF3C7; color:#92400E; }
+.check-item { display:flex; align-items:flex-start; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); }
+.check-item:last-child { border-bottom:none; }
+.check-icon { width:22px; height:22px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; flex-shrink:0; margin-top:2px; }
+.check-icon.done { background:#D1FAE5; color:#065F46; }
+.check-icon.pending { background:#FEF3C7; color:#92400E; }
+.check-text { flex:1; }
+.check-text .clause { font-weight:700; font-size:13px; }
+.check-text .desc { font-size:12px; color:var(--text-secondary); }
+.insight-card { background:linear-gradient(135deg, #F0F9FF, #FFF8E7); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:10px; }
+.insight-card h4 { font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:4px; }
+.insight-card p { font-size:12px; color:var(--text-secondary); }
+.footer { text-align:center; padding:24px 20px; font-size:10px; color:var(--text-muted); line-height:1.6; border-top:1px solid var(--border); margin-top:30px; }
+@media (max-width:768px) { .links-row { grid-template-columns:repeat(2, 1fr); } }
+@media (max-width:600px) { .stats-row { grid-template-columns:1fr 1fr; } .winner-grid { grid-template-columns:1fr; } .nav a { font-size:11px; padding:5px 10px; } }
+@media (max-width:480px) { .links-row { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="header">
+  <img src="https://raw.githubusercontent.com/tmgm5258/raya_giveaway_promotion_malaysia_new_clients_lucky_draw/f22fd4df21954ebed6c4b1ebfceb4e539f79e616/download%20(1).png" alt="TMGM">
+  <h1>2026 Raya Giveaway Promotion</h1>
+  <h2>Indonesia Existing Clients &mdash; Campaign Hub &mdash; Internal Reference</h2>
+</div>
+<div class="nav"><div class="nav-inner">
+  <a href="#overview">Overview</a><a href="#bo-data">BO Data</a><a href="#draw-video">Draw Video</a><a href="#draw-results">Draw Results</a><a href="#winners">Winners</a><a href="#analysis">Analysis</a><a href="#compliance">Compliance</a><a href="#calc-logic">Calc Logic</a>
+</div></div>
+<div class="container">
+
+<div class="section" id="overview">
+  <div class="section-title"><span class="num">1</span> Campaign Overview</div>
+  <div class="section-sub">Key campaign parameters and reference links</div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="val">Mar 2026</div><div class="label">Campaign Period</div><div class="tooltip">01 March 2026 00:00:00 &ndash; 31 March 2026 23:59:59 MT4/MT5 Time. Open to existing TMGM clients with Indonesia residence only.</div></div>
+    <div class="stat-card"><div class="val">$300</div><div class="label">Min Net Deposit</div><div class="tooltip">Net Deposit &ge;$300 USD required per lucky draw chance. Internal transfers excluded. Cents Accounts: deposits count but trading volume excluded.</div></div>
+    <div class="stat-card"><div class="val">3 Lots</div><div class="label">Min Trading Vol</div><div class="tooltip">Forex &amp; Bullion = 1 lot. CFD indices, crude oil &amp; crypto = 1/10 lot. Shares excluded. Positions &ge;2 min only. Hedging excluded.</div></div>
+    <div class="stat-card"><div class="val">65</div><div class="label">Max Chances/Client</div><div class="tooltip">Maximum cap of 65 lucky draw chances per client. Chances = min(floor(Net Deposit &divide; 300), floor(Lots &divide; 3)), capped at 65.</div></div>
+    <div class="stat-card gold"><div class="val">65</div><div class="label">Total Rewards</div><div class="tooltip">50&times; Raya Hampers Box + 10&times; ANTAM 1g 999.9 Gold Bar + 5&times; LEKA AP8000 Super Air Purifier. Distributed first-come-first-served from shared pool.</div></div>
+  </div>
+  <div class="card">
+    <p style="font-size:13px; margin-bottom:14px;"><strong>Mechanic:</strong><br>Every USD $300 net deposit + 3 standard lots traded = 1 lucky draw chance. Both conditions must be met (tandem requirement). Max 65 chances per client. Each chance draws from a shared reward pool of 65 items. A client may win multiple rewards.</p>
+    <p style="font-size:13px; margin-bottom:14px;"><strong>Prizes (65 Total):</strong><br>&#127873; 50&times; Raya Hampers Box &nbsp;|&nbsp; &#129351; 10&times; ANTAM 1g 999.9 Gold Bar &nbsp;|&nbsp; &#127744; 5&times; LEKA AP8000 Super Air Purifier (HEPA13 UV-C)</p>
+    <p style="font-size:13px; margin-bottom:14px;"><strong>Period:</strong><br>01 March 2026 00:00:00 &ndash; 31 March 2026 23:59:59 (MT4/MT5 Time)</p>
+    <p style="font-size:13px; margin-bottom:14px;"><strong>Executive Summary:</strong><br>18 Indonesia-based existing clients registered for the promotion. 3 clients (16.7%) met both the deposit and trading requirements, generating a total of 38 lucky draw chances. 38 rewards were randomly drawn from the 65-item pool, resulting in 3 unique winners. 27 rewards remain unawarded. Total eligible deposits during the campaign period: $16,781.52 USD. All chance calculations verified against T&amp;C with 0 mismatches. Campaign is fully compliant &mdash; pending winner notification and prize fulfilment.</p>
+    <div class="links-row">
+      <a href="https://lnd.tmgm.com/en/rayapromo" target="_blank">&#127760; Campaign Landing Page</a>
+      <a href="https://bidholdinggroup.sharepoint.com/:b:/s/GlobalMarketingTMGM/IQBywFmwv9ckQKgO7xabAsV4AT7A5qZat8Ko9Aa47vzglvQ?e=j5vtJH" target="_blank">&#128196; Terms &amp; Conditions (PDF)</a>
+      <a href="https://docs.google.com/spreadsheets/d/1U8BwrT4MP-LZqEaLm5fZIqe2alp6Nwed69OxK1SVMpA/edit?usp=sharing" target="_blank">&#128202; BO Raw Data</a>
+      <a href="https://thebidgroup.atlassian.net/servicedesk/customer/portal/60/OSD-2607" target="_blank">&#127915; BO Data Request (Jira OSD-2607)</a>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="bo-data">
+  <div class="section-title"><span class="num">2</span> Eligible Clients &amp; BO Data</div>
+  <div class="section-sub">Full client list from BO team (Jira OSD-2607) &mdash; green rows = eligible for draw</div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="val">18</div><div class="label">Registered Clients</div><div class="tooltip">18 Indonesia-based existing TMGM clients registered for the Raya Giveaway promotion. CPA/Affiliates excluded per T&amp;C.</div></div>
+    <div class="stat-card"><div class="val">3</div><div class="label">Eligible (Chances &gt; 0)</div><div class="tooltip">Only 3 out of 18 registered clients met both the $300 net deposit AND 3 lots trading requirements. 15 clients failed the tandem threshold.</div></div>
+    <div class="stat-card"><div class="val">38</div><div class="label">Total Chances</div><div class="tooltip">38 lucky draw chances across 3 eligible clients. R Rindiawan (24), HANG HANS (13), Ribun Bunyamin (1). Top client held 63.2% of all chances.</div></div>
+    <div class="stat-card"><div class="val">16.7%</div><div class="label">Eligibility Rate</div><div class="tooltip">3 eligible out of 18 registered = 16.7%. Main drop-off: most clients had $0 net deposit and no trading activity.</div></div>
+  </div>
+  <div class="card" style="text-align:center;">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:16px; text-align:left;">Chance Distribution by Client (38 Total Chances)</p>
+    <div style="display:flex; align-items:center; justify-content:center; gap:40px; flex-wrap:wrap;">
+      <div style="position:relative; width:220px; height:220px;">
+        <div style="width:220px; height:220px; border-radius:50%; background:conic-gradient(
+          #000B50 0% 63.16%,
+          #2C5FAD 63.16% 97.37%,
+          #D4A017 97.37% 100%
+        );"></div>
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:120px; height:120px; border-radius:50%; background:var(--card); display:flex; align-items:center; justify-content:center; flex-direction:column;">
+          <div style="font-size:24px; font-weight:800; color:var(--dark-blue);">38</div>
+          <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">Chances</div>
+        </div>
+      </div>
+      <div style="text-align:left; font-size:12px; line-height:2.2;">
+        <div><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background:#000B50; margin-right:8px; vertical-align:middle;"></span>R Rindiawan Uji purbowo &mdash; <strong>24</strong> (63.2%)</div>
+        <div><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background:#2C5FAD; margin-right:8px; vertical-align:middle;"></span>HANG HANS WIBISONO &mdash; <strong>13</strong> (34.2%)</div>
+        <div><span style="display:inline-block; width:12px; height:12px; border-radius:3px; background:#D4A017; margin-right:8px; vertical-align:middle;"></span>Ribun Bunyamin &mdash; <strong>1</strong> (2.6%)</div>
+      </div>
+    </div>
+    <p style="font-size:11px; color:var(--text-muted); margin-top:12px;">Top client (R Rindiawan) holds 63.2% of all chances (24 out of 38)</p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>User ID</th><th>Client Name</th><th>Country</th><th>Net Deposit (USD)</th><th>Trading Vol (Lots)</th><th>Chances</th></tr></thead>
+      <tbody>
+        <tr class="eligible"><td>1</td><td>669133</td><td>R Rindiawan Uji purbowo</td><td>Indonesia</td><td>$11,000.00</td><td>73.72</td><td><strong>24</strong></td></tr>
+        <tr class="eligible"><td>2</td><td>208154</td><td>HANG HANS WIBISONO</td><td>Indonesia</td><td>$3,973.00</td><td>83.41</td><td><strong>13</strong></td></tr>
+        <tr class="eligible"><td>3</td><td>643276</td><td>Ribun Bunyamin</td><td>Indonesia</td><td>$1,808.52</td><td>3.18</td><td><strong>1</strong></td></tr>
+        <tr class="ineligible"><td>4</td><td>659212</td><td>Ainul Yakin</td><td>Indonesia</td><td>$185.00</td><td>0.61</td><td>0</td></tr>
+        <tr class="ineligible"><td>5</td><td>582864</td><td>Linda Gunawan</td><td>Indonesia</td><td>$1,755.00</td><td>1.89</td><td>0</td></tr>
+        <tr class="ineligible"><td>6</td><td>655863</td><td>EVA RAHAYU</td><td>Indonesia</td><td>$6,370.06</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>7</td><td>686738</td><td>Ferdiansyah Idris</td><td>Indonesia</td><td>$0.00</td><td>195.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>8</td><td>676944</td><td>Ellisa Novia Putri Darta</td><td>Indonesia</td><td>$25.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>9</td><td>890377</td><td>Tony Margono</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>10</td><td>872792</td><td>Sutrisni Sutrisni</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>11</td><td>891005</td><td>Sigit Pamungkas</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>12</td><td>562186</td><td>mutia sari</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>13</td><td>883324</td><td>DONNY DERMAWAN</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>14</td><td>854196</td><td>Zeni Renaldi</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>15</td><td>829668</td><td>ANDRI ARYANSYAH</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>16</td><td>750303</td><td>IMAM SASONO</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>17</td><td>816359</td><td>RIAN JAFAR SIDDIQ</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+        <tr class="ineligible"><td>18</td><td>851080</td><td>AHMAD RAHMATILLAH</td><td>Indonesia</td><td>$0.00</td><td>0.00</td><td>0</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:11px; color:var(--text-muted); margin-top:8px;">Note: Notable near-misses &mdash; Linda Gunawan ($1,755 deposit but only 1.89 lots), EVA RAHAYU ($6,370 deposit but 0 lots), Ferdiansyah Idris (195 lots but $0 net deposit). BO data verified with <strong>0 mismatches</strong> against T&amp;C calculation logic.</p>
+</div>
+
+<div class="section" id="draw-video">
+  <div class="section-title"><span class="num">3</span> Lucky Draw Recording</div>
+  <div class="section-sub">Official draw conducted and screen-recorded per T&amp;C</div>
+  <div class="video-wrap">
+    <video controls preload="auto">
+      <source src="https://raw.githubusercontent.com/tmgm5258/raya_giveaway_promotion_indonesia_existing_clients_lucky_draw/a1ecf0cce3532ef9ce41d58364c213ff4811b5f3/raya_giveaway_promotion_indonesia_existing_clients_lucky_draw_video.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-actions">
+      <a href="https://raw.githubusercontent.com/tmgm5258/raya_giveaway_promotion_indonesia_existing_clients_lucky_draw/a1ecf0cce3532ef9ce41d58364c213ff4811b5f3/raya_giveaway_promotion_indonesia_existing_clients_lucky_draw_video.webm" download>&#11015; Download Video (.webm)</a>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="draw-results">
+  <div class="section-title"><span class="num">4</span> Draw Results &mdash; 38 Draws from 65-Item Reward Pool</div>
+  <div class="section-sub">All 38 draws in chronological order &mdash; drawn per client, rewards assigned from shared pool</div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="val">38</div><div class="label">Draws Completed</div></div>
+    <div class="stat-card"><div class="val">28</div><div class="label">Hampers Awarded</div></div>
+    <div class="stat-card"><div class="val">7</div><div class="label">Gold Bars Awarded</div></div>
+    <div class="stat-card"><div class="val">3</div><div class="label">Purifiers Awarded</div></div>
+    <div class="stat-card"><div class="val">27</div><div class="label">Rewards Remaining</div></div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Draw #</th><th>Winner Name</th><th>User ID</th><th>Reward Won</th><th>Reward Item</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #39</td></tr>
+        <tr><td>2</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #6</td></tr>
+        <tr><td>3</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #12</td></tr>
+        <tr><td>4</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #8</td></tr>
+        <tr><td>5</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #3</td></tr>
+        <tr><td>6</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #1</td></tr>
+        <tr><td>7</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #5</td></tr>
+        <tr><td>8</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #5</td></tr>
+        <tr><td>9</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #22</td></tr>
+        <tr><td>10</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #30</td></tr>
+        <tr><td>11</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #7</td></tr>
+        <tr><td>12</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>LEKA AP8000 Air Purifier</td><td>Purifier #4</td></tr>
+        <tr><td>13</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #16</td></tr>
+        <tr><td>14</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #10</td></tr>
+        <tr><td>15</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #14</td></tr>
+        <tr><td>16</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #10</td></tr>
+        <tr><td>17</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #36</td></tr>
+        <tr><td>18</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #49</td></tr>
+        <tr><td>19</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>LEKA AP8000 Air Purifier</td><td>Purifier #3</td></tr>
+        <tr><td>20</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #17</td></tr>
+        <tr><td>21</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #32</td></tr>
+        <tr><td>22</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #25</td></tr>
+        <tr><td>23</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>LEKA AP8000 Air Purifier</td><td>Purifier #2</td></tr>
+        <tr><td>24</td><td>R Rindiawan Uji purbowo</td><td>669133</td><td>Raya Hampers Box</td><td>Hampers #48</td></tr>
+        <tr><td>25</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #2</td></tr>
+        <tr><td>26</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #46</td></tr>
+        <tr><td>27</td><td>HANG HANS WIBISONO</td><td>208154</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #4</td></tr>
+        <tr><td>28</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #23</td></tr>
+        <tr><td>29</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #38</td></tr>
+        <tr><td>30</td><td>HANG HANS WIBISONO</td><td>208154</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #9</td></tr>
+        <tr><td>31</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #24</td></tr>
+        <tr><td>32</td><td>HANG HANS WIBISONO</td><td>208154</td><td>ANTAM 1g Gold Bar</td><td>Gold Bar #6</td></tr>
+        <tr><td>33</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #42</td></tr>
+        <tr><td>34</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #19</td></tr>
+        <tr><td>35</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #31</td></tr>
+        <tr><td>36</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #26</td></tr>
+        <tr><td>37</td><td>HANG HANS WIBISONO</td><td>208154</td><td>Raya Hampers Box</td><td>Hampers #47</td></tr>
+        <tr><td>38</td><td>Ribun Bunyamin</td><td>643276</td><td>Raya Hampers Box</td><td>Hampers #20</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="video-actions">
+    <a href="#" onclick="downloadDrawResults(); return false;">&#11015; Download Draw Results (.xlsx)</a>
+  </div>
+</div>
+
+<div class="section" id="winners">
+  <div class="section-title"><span class="num">5</span> Winner Summary &amp; Prize Allocation</div>
+  <div class="section-sub">3 unique winners from 38 draws &mdash; 27 rewards remain unawarded</div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="val">3</div><div class="label">Unique Winners</div><div class="tooltip">All 3 eligible clients won rewards. R Rindiawan (24 rewards), HANG HANS (13 rewards), Ribun Bunyamin (1 reward).</div></div>
+    <div class="stat-card"><div class="val">38</div><div class="label">Rewards Awarded</div><div class="tooltip">38 rewards drawn from pool of 65. Breakdown: 28 Hampers, 7 Gold Bars, 3 Air Purifiers.</div></div>
+    <div class="stat-card"><div class="val">27</div><div class="label">Rewards Remaining</div><div class="tooltip">27 rewards unawarded: 22 Hampers, 3 Gold Bars, 2 Air Purifiers. Only 38 total chances were generated.</div></div>
+  </div>
+  <div class="card">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:16px;">Reward Allocation by Winner (38 Total Awarded)</p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <div style="width:220px; font-size:12px; font-weight:600; text-align:right; flex-shrink:0;">R Rindiawan Uji purbowo</div>
+        <div style="flex:1; background:#F1F5F9; border-radius:6px; height:32px; position:relative;">
+          <div style="width:100%; height:100%; background:linear-gradient(90deg, #D4A017, #E8B930); border-radius:6px; display:flex; align-items:center; padding-left:12px;">
+            <span style="font-size:12px; font-weight:800; color:#fff;">24 rewards (17&#127873; 4&#129351; 3&#127744;)</span>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <div style="width:220px; font-size:12px; font-weight:600; text-align:right; flex-shrink:0;">HANG HANS WIBISONO</div>
+        <div style="flex:1; background:#F1F5F9; border-radius:6px; height:32px; position:relative;">
+          <div style="width:54.2%; height:100%; background:linear-gradient(90deg, #D4A017, #E8B930); border-radius:6px; display:flex; align-items:center; padding-left:12px;">
+            <span style="font-size:12px; font-weight:800; color:#fff;">13 rewards (10&#127873; 3&#129351;)</span>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <div style="width:220px; font-size:12px; font-weight:600; text-align:right; flex-shrink:0;">Ribun Bunyamin</div>
+        <div style="flex:1; background:#F1F5F9; border-radius:6px; height:32px; position:relative;">
+          <div style="width:4.2%; min-width:50px; height:100%; background:linear-gradient(90deg, #D4A017, #E8B930); border-radius:6px; display:flex; align-items:center; padding-left:12px;">
+            <span style="font-size:12px; font-weight:800; color:#fff;">1&#127873;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:11px; color:var(--text-muted); margin-top:12px;">&#127873; = Raya Hampers Box &nbsp;|&nbsp; &#129351; = ANTAM 1g Gold Bar &nbsp;|&nbsp; &#127744; = LEKA AP8000 Air Purifier</p>
+  </div>
+  <div class="winner-grid">
+    <div class="winner-card">
+      <div class="bars">24<small>rewards</small></div>
+      <div class="info">
+        <div class="name">R Rindiawan Uji purbowo</div>
+        <div class="detail">User ID: 669133 &middot; 24 Draw Chances</div>
+        <div class="detail">17&times; Hampers, 4&times; Gold Bar, 3&times; Air Purifier</div>
+      </div>
+      <div class="status">Pending</div>
+    </div>
+    <div class="winner-card">
+      <div class="bars">13<small>rewards</small></div>
+      <div class="info">
+        <div class="name">HANG HANS WIBISONO</div>
+        <div class="detail">User ID: 208154 &middot; 13 Draw Chances</div>
+        <div class="detail">10&times; Hampers, 3&times; Gold Bar</div>
+      </div>
+      <div class="status">Pending</div>
+    </div>
+    <div class="winner-card">
+      <div class="bars">1<small>reward</small></div>
+      <div class="info">
+        <div class="name">Ribun Bunyamin</div>
+        <div class="detail">User ID: 643276 &middot; 1 Draw Chance</div>
+        <div class="detail">1&times; Hampers</div>
+      </div>
+      <div class="status">Pending</div>
+    </div>
+  </div>
+  <p style="font-size:11px; color:var(--text-muted); margin-top:12px;">Fulfilment Status: All currently &ldquo;Pending&rdquo;. Winners have 5 business days from announcement to provide delivery info per T&amp;C.</p>
+</div>
+
+<div class="section" id="analysis">
+  <div class="section-title"><span class="num">6</span> Campaign Analysis</div>
+  <div class="section-sub">Key insights from the campaign</div>
+  <div class="insight-card"><h4>&#128202; Participation &amp; Eligibility</h4><p>18 existing clients registered, but only 3 (16.7%) earned at least 1 chance. 15 clients registered but failed to meet the tandem deposit + trading requirement. The biggest drop-off factor was <strong>zero activity</strong> &mdash; 10 clients had $0 net deposit and 0 lots traded. Notable near-misses: EVA RAHAYU deposited $6,370 but traded 0 lots; Ferdiansyah Idris traded 195 lots but had $0 net deposit.</p></div>
+  <div class="insight-card"><h4>&#127915; Chance Concentration</h4><p>38 total chances were held by only 3 eligible clients. R Rindiawan Uji purbowo alone held <strong>63.2% of all chances</strong> (24 out of 38). This extreme concentration meant the reward pool of 65 items could only be partially drawn &mdash; 27 rewards (41.5%) remained unawarded.</p></div>
+  <div class="insight-card"><h4>&#127942; Reward Distribution</h4><p>All 38 draws resulted in wins (since each draw removes 1 item from the pool). R Rindiawan received 24 rewards including 4 gold bars and 3 air purifiers. HANG HANS received 13 rewards including 3 gold bars. Ribun Bunyamin received 1 hampers box from his single chance.</p></div>
+  <div class="insight-card"><h4>&#128176; Reward Pool Utilisation</h4><p>Only <strong>58.5% of the reward pool</strong> was utilized (38 out of 65 items). Remaining inventory: 22 Hampers Boxes, 3 Gold Bars, 2 Air Purifiers. This under-utilisation is due to the low number of qualifying clients relative to the prize pool size.</p></div>
+  <div class="insight-card"><h4>&#128101; Eligibility Barriers</h4><p>The tandem requirement ($300 deposit AND 3 lots) proved to be a significant barrier. Several clients met one condition but not the other: Linda Gunawan deposited $1,755 but only traded 1.89 lots; Ferdiansyah Idris traded 195 lots but had $0 net deposit. Future campaigns may benefit from adjusted thresholds for the Indonesia existing client segment.</p></div>
+</div>
+
+<div class="section" id="compliance">
+  <div class="section-title"><span class="num">7</span> T&amp;C Compliance Checklist</div>
+  <div class="section-sub">End-to-end audit trail &mdash; every T&amp;C clause checked</div>
+  <div class="card">
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Promotion Period</div><div class="desc">01 Mar &ndash; 31 Mar 2026 (MT4/MT5 Time). Campaign ended on schedule.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Registration</div><div class="desc">All participants registered via TMGM Portal Promotions page. Confirmed by BO team.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Indonesia Residents Only</div><div class="desc">All 18 registered clients have Indonesia as country of residence. Verified in BO data.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Existing Clients Only</div><div class="desc">All clients confirmed to have at least one deposit prior to 1 March 2026. BO team verified via CRM configuration.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">CPA/Affiliates Excluded</div><div class="desc">BO team filtered out CPA and Affiliate accounts from the eligible list.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Tandem Requirement ($300 + 3 Lots)</div><div class="desc">Chances = min(floor(deposit/300), floor(lots/3)), capped at 65. BO data verified with 0 mismatches across all 18 clients.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Net Deposits Only</div><div class="desc">Internal transfers excluded. BO team confirmed in Jira ticket OSD-2607.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Lot Calculation Rules</div><div class="desc">Forex &amp; Bullion = 1 lot; CFD indices/crude/crypto = 1/10 lot; Shares excluded; &ge;2 min hold; hedging excluded.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Cents Accounts</div><div class="desc">Deposits count, trading volume excluded. Applied correctly by BO team.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Reward Pool &amp; Random Draw</div><div class="desc">65-item shared pool (50 Hampers + 10 Gold Bars + 5 Air Purifiers). 38 draws conducted. Rewards assigned randomly, first-come-first-served.</div></div></div>
+    <div class="check-item"><div class="check-icon done">&#10003;</div><div class="check-text"><div class="clause">Draw Recorded</div><div class="desc">Draw conducted using TMGM-branded randomiser tool. Screen recorded.</div></div></div>
+    <div class="check-item"><div class="check-icon pending">&#9744;</div><div class="check-text"><div class="clause">Notify Winners</div><div class="desc">Pending. 3 unique winners to be notified. Winners announced on landing page, social media, and via EDM within 5 business days.</div></div></div>
+    <div class="check-item"><div class="check-icon pending">&#9744;</div><div class="check-text"><div class="clause">Publish Winner List &amp; Video</div><div class="desc">Pending. Winner list and draw video to be published on landing page.</div></div></div>
+    <div class="check-item"><div class="check-icon pending">&#9744;</div><div class="check-text"><div class="clause">Collect Delivery Info (5 Business Days)</div><div class="desc">Pending. Winners must respond with delivery info within 5 business days of announcement or forfeit.</div></div></div>
+    <div class="check-item"><div class="check-icon pending">&#9744;</div><div class="check-text"><div class="clause">Prize Fulfilment</div><div class="desc">Pending. 38 rewards to be arranged and shipped: 28 Hampers, 7 Gold Bars, 3 Air Purifiers.</div></div></div>
+  </div>
+</div>
+
+<div class="section" id="calc-logic">
+  <div class="section-title"><span class="num">8</span> Chance Calculation Logic</div>
+  <div class="section-sub">How lucky draw chances were calculated &mdash; based on T&amp;C</div>
+  
+  <div class="card" style="background:linear-gradient(135deg, #F0F9FF, #F8FAFC); border-color:var(--mid-blue);">
+    <p style="font-size:11px; color:var(--text-secondary); text-transform:uppercase; letter-spacing:1px; font-weight:700; margin-bottom:8px;">Core Formula</p>
+    <div style="background:var(--dark-blue); color:#fff; padding:16px 20px; border-radius:10px; font-family:monospace; font-size:15px; text-align:center; letter-spacing:0.5px;">
+      Chances = min( floor( Net Deposit &divide; $300 ) , floor( Trading Lots &divide; 3 ) ) &nbsp; [max 65]
+    </div>
+    <p style="font-size:12px; color:var(--text-secondary); margin-top:10px; text-align:center;">
+      Both conditions must be met simultaneously &mdash; this is the <strong>tandem requirement</strong>. The lower of the two determines the chance count. Capped at 65 per client.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:12px;">Worked Examples Using Actual Client Data</p>
+    <div class="table-wrap">
+      <table style="min-width:auto;">
+        <thead>
+          <tr><th>Client</th><th>User ID</th><th>Net Deposit</th><th>floor(Dep&divide;300)</th><th>Trading Lots</th><th>floor(Lots&divide;3)</th><th>Chances</th><th>Explanation</th></tr>
+        </thead>
+        <tbody>
+          <tr class="eligible"><td>R Rindiawan Uji purbowo</td><td>669133</td><td>$11,000</td><td>36</td><td>73.72</td><td>24</td><td><strong>24</strong></td><td>min(36, 24) = 24 &mdash; trading volume is the limiting factor</td></tr>
+          <tr class="eligible"><td>HANG HANS WIBISONO</td><td>208154</td><td>$3,973</td><td>13</td><td>83.41</td><td>27</td><td><strong>13</strong></td><td>min(13, 27) = 13 &mdash; deposit limits despite high volume</td></tr>
+          <tr class="eligible"><td>Ribun Bunyamin</td><td>643276</td><td>$1,809</td><td>6</td><td>3.18</td><td>1</td><td><strong>1</strong></td><td>min(6, 1) = 1 &mdash; barely met trading requirement</td></tr>
+          <tr class="ineligible"><td>Linda Gunawan</td><td>582864</td><td>$1,755</td><td>5</td><td>1.89</td><td>0</td><td><strong>0</strong></td><td>min(5, 0) = 0 &mdash; deposited but trading volume too low</td></tr>
+          <tr class="ineligible"><td>EVA RAHAYU</td><td>655863</td><td>$6,370</td><td>21</td><td>0.00</td><td>0</td><td><strong>0</strong></td><td>min(21, 0) = 0 &mdash; deposited $6,370 but never traded</td></tr>
+          <tr class="ineligible"><td>Ferdiansyah Idris</td><td>686738</td><td>$0</td><td>0</td><td>195.00</td><td>65</td><td><strong>0</strong></td><td>min(0, 65) = 0 &mdash; heavy trading but $0 net deposit</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:10px;">Lot Conversion Rules</p>
+    <div class="table-wrap">
+      <table style="min-width:auto;">
+        <thead><tr><th>Instrument</th><th>Conversion</th></tr></thead>
+        <tbody>
+          <tr><td>Forex &amp; Bullion</td><td><strong>1 standard lot = 1 lot</strong></td></tr>
+          <tr><td>CFD Indices, Crude Oil, Crypto</td><td><strong>1 standard lot = 0.1 lot</strong></td></tr>
+          <tr><td>Shares</td><td><strong>Excluded entirely</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:11px; color:var(--text-muted); margin-top:8px;">
+      <strong>Additional rules:</strong> Only positions held &ge;2 minutes count. Hedging orders excluded. Only trades opened AND closed within promotion period. Cents Accounts: deposits count, trading volume excluded.
+    </p>
+  </div>
+
+  <div class="card" style="border-left:3px solid var(--gold); background:var(--gold-light);">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:4px;">Reward Pool Mechanic</p>
+    <p style="font-size:12px; color:var(--text-secondary);">
+      65 rewards in a shared pool: <strong>50&times; Raya Hampers Box</strong>, <strong>10&times; ANTAM 1g Gold Bar</strong>, <strong>5&times; LEKA AP8000 Air Purifier</strong>. Each draw removes 1 random item from the pool. Rewards are non-transferable and cannot be exchanged for cash. First-come-first-served while supplies last.
+    </p>
+  </div>
+
+  <div class="card" style="border-left:3px solid var(--green);">
+    <p style="font-size:13px; font-weight:700; color:var(--dark-blue); margin-bottom:4px;">&#10003; Verification Result</p>
+    <p style="font-size:12px; color:var(--text-secondary);">
+      All 18 client rows from the BO team were independently verified against the formula. <strong>0 mismatches found.</strong> Every chance allocation matches the T&amp;C calculation logic exactly.
+    </p>
+  </div>
+</div>
+
+</div>
+<div class="footer">
+  TMGM 2026 Raya Giveaway Promotion &mdash; Indonesia Existing Clients &mdash; Internal Campaign Hub<br>
+  Conducted under Trademax Global Limited (VFSC 40356).<br>
+  This document is for internal use only. Contains client PII &mdash; do not share externally.<br>
+  Jira Reference: OSD-2607 &middot; Generated April 2026
+</div>
+<script>
+function downloadDrawResults(){
+  var rows=[
+    ["Draw #","Winner Name","User ID","Country","Net Deposit (USD)","Trading Volume (Lots)","Lucky Draw Chances","Reward Category","Reward Item","Fulfilment Status"],
+    [1,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #39","Pending"],
+    [2,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #6","Pending"],
+    [3,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #12","Pending"],
+    [4,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #8","Pending"],
+    [5,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #3","Pending"],
+    [6,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"ANTAM 1g 999.9 Gold Bar","Gold Bar #1","Pending"],
+    [7,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"ANTAM 1g 999.9 Gold Bar","Gold Bar #5","Pending"],
+    [8,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #5","Pending"],
+    [9,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #22","Pending"],
+    [10,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #30","Pending"],
+    [11,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"ANTAM 1g 999.9 Gold Bar","Gold Bar #7","Pending"],
+    [12,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"LEKA AP8000 Super Air Purifier","Purifier #4","Pending"],
+    [13,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #16","Pending"],
+    [14,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #10","Pending"],
+    [15,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #14","Pending"],
+    [16,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"ANTAM 1g 999.9 Gold Bar","Gold Bar #10","Pending"],
+    [17,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #36","Pending"],
+    [18,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #49","Pending"],
+    [19,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"LEKA AP8000 Super Air Purifier","Purifier #3","Pending"],
+    [20,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #17","Pending"],
+    [21,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #32","Pending"],
+    [22,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #25","Pending"],
+    [23,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"LEKA AP8000 Super Air Purifier","Purifier #2","Pending"],
+    [24,"R Rindiawan Uji purbowo",669133,"Indonesia",11000.00,73.72,24,"Raya Hampers Box","Hampers #48","Pending"],
+    [25,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #2","Pending"],
+    [26,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #46","Pending"],
+    [27,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"ANTAM 1g 999.9 Gold Bar","Gold Bar #4","Pending"],
+    [28,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #23","Pending"],
+    [29,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #38","Pending"],
+    [30,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"ANTAM 1g 999.9 Gold Bar","Gold Bar #9","Pending"],
+    [31,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #24","Pending"],
+    [32,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"ANTAM 1g 999.9 Gold Bar","Gold Bar #6","Pending"],
+    [33,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #42","Pending"],
+    [34,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #19","Pending"],
+    [35,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #31","Pending"],
+    [36,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #26","Pending"],
+    [37,"HANG HANS WIBISONO",208154,"Indonesia",3973.00,83.41,13,"Raya Hampers Box","Hampers #47","Pending"],
+    [38,"Ribun Bunyamin",643276,"Indonesia",1808.52,3.18,1,"Raya Hampers Box","Hampers #20","Pending"]
+  ];
+  var csv=rows.map(function(r){return r.map(function(c){return'"'+String(c).replace(/"/g,'""')+'"';}).join(",");}).join("\r\n");
+  var BOM="\uFEFF";
+  var blob=new Blob([BOM+csv],{type:"text/csv;charset=utf-8;"});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement("a");
+  a.href=url;
+  a.download="TMGM_Raya_Giveaway_2026_Indonesia_Existing_Client_Draw_Results.csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
